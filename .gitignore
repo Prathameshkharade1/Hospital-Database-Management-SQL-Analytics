@@ -1,0 +1,24 @@
+# Python virtual environment
+ML/.venv/
+**/__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Model files
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Temporary files
+*.log
+.DS_Store
+
+# Large hospital datasets
+icu/*.csv
+ML/hosp/*.csv
